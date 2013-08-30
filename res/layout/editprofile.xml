@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/scrollView1"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" >
+
+        <LinearLayout
+            android:id="@+id/linearLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/EditName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="First Last Name"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/EditEmail"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="email"
+                android:textAppearance="?android:attr/textAppearanceLarge" />
+
+            <TextView
+                android:id="@+id/EditUniversity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="University:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/EditUniSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/EditMajor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Major:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <Spinner
+                android:id="@+id/EditMajorSpinner"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/EditClarityText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Clarity:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditClaritySeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/EditFairnessText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Fairness:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditFairnessSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/EditEasinessText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Easiness:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditEasinessSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/EditHomeworkText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Homework:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditHomeworkSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/EditQuizzesText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Quizzes:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditQuizzesSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/EditEnglishText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="English:"
+                android:textAppearance="?android:attr/textAppearanceMedium" />
+
+            <SeekBar
+                android:id="@+id/EditEnglishSeek"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:max="41" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="" />
+
+            <Button
+                android:id="@+id/SaveProfileButton"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Save Changes" />
+
+        </LinearLayout>
+
+    </ScrollView>

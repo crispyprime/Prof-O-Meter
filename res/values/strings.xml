@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, LoginPage!</string>
+    <string name="app_name">Prof-o-meter</string>
+    <string name="email">Email Address:</string>
+    <string name="password">Password:</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="c">"C "</string>
+    <string name="enterreview">Enter your review here...</string>
+    <string name="numassign">Number of assignments:</string>
+
+</resources>

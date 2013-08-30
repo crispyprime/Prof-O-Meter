@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+    <item android:id="@+id/item1" android:titleCondensed='"Review"' android:title='"Review"' android:visible="true" android:enabled="true"></item>
+    <item android:id="@+id/item2" android:title='"Search"' android:titleCondensed='"Search"' android:enabled="true" android:visible="true"></item>
+    <item android:id="@+id/item3" android:title='"Browse..."'>
+        <menu>
+            <item android:id="@+id/item4" android:title='"by Professor"' android:titleCondensed='"Prof"' android:enabled="true" android:visible="true"/>
+            <item android:id="@+id/item5" android:title='"Department"' android:titleCondensed='"Dept"' android:enabled="true" android:visible="true"/>
+            <item android:id="@+id/item6" android:title='"Course Code"' android:titleCondensed='"Course"' android:enabled="true" android:visible="true"/>
+        </menu>
+    </item>
+    <item android:id="@+id/item7" android:title="My Profile" android:titleCondensed="Profile"></item>
+    
+
+</menu>
